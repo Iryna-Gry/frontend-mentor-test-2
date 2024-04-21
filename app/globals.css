@@ -22,11 +22,12 @@ h2 {
 }
 
 .blog-card {
-  transition: color 0.4s ease;
+  transition: all 0.4s ease;
 }
 .blog-card:hover h2,
 .blog-card:focus h2 {
   color: #f4d04e;
+  box-shadow: 16px 16px ##000000;
 }
 .visually-hidden {
   position: absolute;

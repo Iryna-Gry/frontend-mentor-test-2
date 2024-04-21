@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       boxShadow: {
         'card-shadow': '8px 8px #000000',
+        'card-shadow-hover':'16px 16px #000000',
       },
       colors: {
         'custom-gray': '#7F7F7F',

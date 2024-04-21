@@ -3,7 +3,7 @@ import React from 'react';
 
 const BlogCard = () => {
   return (
-    <li className='blog-card max-w-[320px] p-6 rounded-[10px] shadow-card-shadow bg-custom-white md:min-w-[385px]'>
+    <li className='blog-card hover:shadow-card-shadow-hover focus:shadow-card-shadow-hover max-w-[320px] p-6 rounded-[10px] shadow-card-shadow bg-custom-white md:min-w-[385px]'>
       <div className='mb-6'>
         <Image
           src='illustration-article.svg'
